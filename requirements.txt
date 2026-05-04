@@ -1,0 +1,13 @@
+pandas
+sqlalchemy
+psycopg2-binary
+alembic
+boto3
+gspread
+requests
+apache-airflow
+scikit-learn
+streamlit
+plotly
+python-dotenv
+loguru
