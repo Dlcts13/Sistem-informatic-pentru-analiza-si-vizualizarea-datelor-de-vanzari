@@ -1,0 +1,311 @@
+Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment,Country,City,State,Postal Code,Region,Product ID,Category,Sub-Category,Product Name,Sales,Quantity,Discount,Profit
+1,GSH-150150000,12/27/2021,12/31/2021,Economy,XCUST-866471,Priya Sharma,Home Office,India,Delhi,IS,89017,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,1859.65,5,0.1,141.04
+2,GSH-150150001,04/02/2021,04/12/2021,Standard,XCUST-693432,Rajesh Patel,Home Office,India,Bangalore,DU,44151,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,9939.82,11,0.0,381.52
+3,GSH-150150002,01/16/2021,01/22/2021,Standard,XCUST-974379,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,HO,59078,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,9887.7,15,0.05,3358.02
+4,GSH-150150003,03/28/2021,04/07/2021,Economy,XCUST-816957,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,BA,90690,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,1707.95,5,0.0,603.16
+5,GSH-150150004,05/29/2021,06/08/2021,Standard,XCUST-919690,Priya Sharma,Home Office,India,Delhi,SI,53293,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,3282.2,10,0.1,-1178.86
+6,GSH-150150005,01/01/2022,01/11/2022,Economy,XCUST-876353,Hassan Ibrahim,Corporate,Turkey,Istanbul,IS,41121,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,709.52,4,0.0,277.72
+7,GSH-150150006,05/19/2021,05/28/2021,Overnight,XCUST-704911,Priya Sharma,Home Office,India,Delhi,HO,40006,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,1424.88,6,0.1,833.28
+8,GSH-150150007,07/28/2022,08/03/2022,Overnight,XCUST-640671,Hassan Ibrahim,Corporate,Turkey,Istanbul,HO,89899,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,4183.9,10,0.15,131.5
+9,GSH-150150008,07/24/2021,07/25/2021,Overnight,XCUST-547267,Leila Hassan,Consumer,UAE,Dubai,SI,28327,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,4907.04,8,0.0,-1942.69
+10,GSH-150150009,05/26/2022,05/27/2022,Express,XCUST-913088,Priya Sharma,Home Office,India,Delhi,DE,16830,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,8681.01,13,0.0,5052.83
+11,GSH-150150010,06/02/2022,06/03/2022,Economy,XCUST-954120,Hassan Ibrahim,Corporate,Turkey,Istanbul,BA,27429,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,2153.52,4,0.0,-826.19
+12,GSH-150150011,09/14/2021,09/19/2021,Overnight,XCUST-777838,Priya Sharma,Home Office,India,Delhi,IS,20169,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,4792.3,10,0.0,1804.08
+13,GSH-150150012,12/07/2021,12/11/2021,Overnight,XCUST-928589,Amelia Wong,Corporate,Singapore,Singapore,BA,63022,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,2080.08,3,0.2,44.86
+14,GSH-150150013,04/06/2021,04/11/2021,Express,XCUST-850140,Amelia Wong,Corporate,Singapore,Singapore,DU,84778,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,521.01,1,0.0,271.11
+15,GSH-150150014,09/09/2022,09/10/2022,Economy,XCUST-616307,Hassan Ibrahim,Corporate,Turkey,Istanbul,CA,32547,Africa,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,61.34,1,0.15,7.39
+16,GSH-150150015,10/12/2022,10/15/2022,Express,XCUST-712118,Rajesh Patel,Home Office,India,Bangalore,IS,12971,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,3168.08,8,0.15,160.91
+17,GSH-150150016,07/09/2022,07/16/2022,Express,XCUST-615183,Aisha Ahmed,Consumer,Egypt,Cairo,SI,29025,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,332.95,1,0.2,163.72
+18,GSH-150150017,08/18/2021,08/19/2021,Express,XCUST-586814,Priya Sharma,Home Office,India,Delhi,SI,79058,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,4411.3,10,0.0,-1347.56
+19,GSH-150150018,09/03/2021,09/12/2021,Economy,XCUST-918058,Leila Hassan,Consumer,UAE,Dubai,SI,81321,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,5090.48,8,0.1,443.31
+20,GSH-150150019,05/20/2022,05/29/2022,Economy,XCUST-715720,Hassan Ibrahim,Corporate,Turkey,Istanbul,HO,24263,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,4188.0,15,0.0,-1564.16
+21,GSH-150150020,06/04/2022,06/08/2022,Express,XCUST-978889,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,BA,83322,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,2347.76,8,0.0,397.3
+22,GSH-150150021,11/04/2022,11/06/2022,Express,XCUST-529292,Leila Hassan,Consumer,UAE,Dubai,DU,30500,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,6903.6,15,0.15,-605.46
+23,GSH-150150022,07/21/2022,07/27/2022,Economy,XCUST-603691,Priya Sharma,Home Office,India,Delhi,IS,25763,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,2945.2,5,0.0,315.85
+24,GSH-150150023,11/22/2021,11/28/2021,Standard,XCUST-644385,Aisha Ahmed,Consumer,Egypt,Cairo,IS,87068,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,1056.1,5,0.2,-90.81
+25,GSH-150150024,09/04/2022,09/08/2022,Overnight,XCUST-831334,Amelia Wong,Corporate,Singapore,Singapore,HO,40472,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,9720.62,13,0.15,577.67
+26,GSH-150150025,09/28/2021,10/07/2021,Overnight,XCUST-599432,Aisha Ahmed,Consumer,Egypt,Cairo,SI,84403,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,5945.28,12,0.0,2918.49
+27,GSH-150150026,05/15/2021,05/22/2021,Overnight,XCUST-501202,Amelia Wong,Corporate,Singapore,Singapore,DE,11222,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,2462.32,4,0.05,-734.78
+28,GSH-150150027,11/05/2021,11/11/2021,Express,XCUST-912679,Hassan Ibrahim,Corporate,Turkey,Istanbul,DU,78091,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,2548.28,7,0.0,1014.5
+29,GSH-150150028,06/20/2022,06/28/2022,Standard,XCUST-787922,Priya Sharma,Home Office,India,Delhi,SI,86853,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,8715.12,12,0.2,-671.76
+30,GSH-150150029,01/01/2021,01/11/2021,Overnight,XCUST-988434,Aisha Ahmed,Consumer,Egypt,Cairo,HO,79089,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,1674.92,2,0.0,-607.79
+31,GSH-150150030,04/11/2022,04/15/2022,Standard,XCUST-809402,Priya Sharma,Home Office,India,Delhi,SI,70791,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,1339.85,5,0.1,539.12
+32,GSH-150150031,05/24/2022,05/26/2022,Standard,XCUST-965371,Amelia Wong,Corporate,Singapore,Singapore,DU,81244,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,5785.35,15,0.15,530.92
+33,GSH-150150032,09/19/2021,09/22/2021,Express,XCUST-900716,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,IS,27191,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,398.55,5,0.05,66.93
+34,GSH-150150033,12/09/2021,12/14/2021,Overnight,XCUST-580991,Leila Hassan,Consumer,UAE,Dubai,DU,79663,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,1071.39,3,0.05,190.82
+35,GSH-150150034,09/27/2021,10/04/2021,Overnight,XCUST-893648,Amelia Wong,Corporate,Singapore,Singapore,HO,81797,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,2205.6,6,0.05,394.83
+36,GSH-150150035,01/13/2021,01/15/2021,Express,XCUST-714564,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,DU,76347,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,3333.76,4,0.1,1292.78
+37,GSH-150150036,11/16/2022,11/20/2022,Express,XCUST-710737,Hassan Ibrahim,Corporate,Turkey,Istanbul,HO,18441,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,4317.8,10,0.0,-383.73
+38,GSH-150150037,03/23/2021,04/02/2021,Overnight,XCUST-553038,Hassan Ibrahim,Corporate,Turkey,Istanbul,HO,47014,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,109.03,1,0.0,9.45
+39,GSH-150150038,04/28/2021,05/03/2021,Standard,XCUST-923865,Leila Hassan,Consumer,UAE,Dubai,IS,95698,Asia,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,6715.62,9,0.0,1892.76
+40,GSH-150150039,10/14/2021,10/16/2021,Overnight,XCUST-858511,Leila Hassan,Consumer,UAE,Dubai,CA,15583,Africa,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,2107.62,3,0.0,-340.78
+41,GSH-150150040,05/08/2021,05/17/2021,Economy,XCUST-628082,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,IS,99606,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,1226.0,10,0.15,-489.41
+42,GSH-150150041,03/15/2022,03/18/2022,Economy,XCUST-668592,Amelia Wong,Corporate,Singapore,Singapore,HO,81978,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,2227.59,3,0.05,-9.45
+43,GSH-150150042,11/20/2022,11/29/2022,Express,XCUST-979527,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,HO,15004,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,402.22,2,0.15,-60.63
+44,GSH-150150043,11/16/2021,11/19/2021,Economy,XCUST-871762,Hassan Ibrahim,Corporate,Turkey,Istanbul,HO,38001,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,1092.33,3,0.0,-38.03
+45,GSH-150150044,12/16/2022,12/18/2022,Standard,XCUST-853905,Amelia Wong,Corporate,Singapore,Singapore,DE,76747,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,588.34,2,0.0,-106.61
+46,GSH-150150045,05/31/2021,06/07/2021,Economy,XCUST-641916,Leila Hassan,Consumer,UAE,Dubai,BA,70579,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,3417.04,4,0.0,-404.37
+47,GSH-150150046,07/08/2022,07/11/2022,Standard,XCUST-694169,Hassan Ibrahim,Corporate,Turkey,Istanbul,IS,46812,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,2524.9,5,0.0,1353.09
+48,GSH-150150047,10/30/2022,11/09/2022,Overnight,XCUST-815586,Rajesh Patel,Home Office,India,Bangalore,BA,62548,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,5328.3,10,0.0,629.72
+49,GSH-150150048,11/08/2022,11/18/2022,Express,XCUST-533751,Rajesh Patel,Home Office,India,Bangalore,IS,58815,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,5742.8,14,0.0,791.7
+50,GSH-150150049,09/29/2022,10/08/2022,Economy,XCUST-670182,Priya Sharma,Home Office,India,Delhi,CA,26193,Africa,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,3261.06,11,0.0,1503.4
+51,GSH-150150050,04/28/2022,05/08/2022,Overnight,XCUST-586331,Rajesh Patel,Home Office,India,Bangalore,BA,72110,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,6320.56,8,0.0,3240.4
+52,GSH-150150051,07/28/2021,08/06/2021,Express,XCUST-757400,Rajesh Patel,Home Office,India,Bangalore,BA,57357,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,2795.66,7,0.2,-368.14
+53,GSH-150150052,11/24/2021,11/29/2021,Standard,XCUST-972474,Priya Sharma,Home Office,India,Delhi,SI,88640,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,198.54,2,0.0,3.43
+54,GSH-150150053,01/20/2022,01/28/2022,Overnight,XCUST-806534,Priya Sharma,Home Office,India,Delhi,CA,89981,Africa,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,6071.58,9,0.15,-1440.55
+55,GSH-150150054,10/14/2021,10/19/2021,Economy,XCUST-503994,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,SI,80501,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,8300.04,14,0.0,-2486.13
+56,GSH-150150055,10/17/2021,10/26/2021,Economy,XCUST-793194,Aisha Ahmed,Consumer,Egypt,Cairo,CA,78082,Africa,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,2360.46,6,0.0,823.4
+57,GSH-150150056,01/12/2021,01/21/2021,Overnight,XCUST-692664,Amelia Wong,Corporate,Singapore,Singapore,SI,55452,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,732.84,4,0.0,373.15
+58,GSH-150150057,05/04/2021,05/05/2021,Standard,XCUST-817120,Leila Hassan,Consumer,UAE,Dubai,SI,82823,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,143.98,2,0.15,59.6
+59,GSH-150150058,02/01/2021,02/08/2021,Overnight,XCUST-950727,Rajesh Patel,Home Office,India,Bangalore,SI,19027,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,48.99,3,0.0,7.98
+60,GSH-150150059,09/05/2021,09/08/2021,Standard,XCUST-781520,Amelia Wong,Corporate,Singapore,Singapore,CA,59831,Africa,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,299.28,3,0.2,-96.13
+61,GSH-150150060,01/27/2022,01/28/2022,Overnight,XCUST-691153,Amelia Wong,Corporate,Singapore,Singapore,SI,18263,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,2377.14,6,0.2,1225.56
+62,GSH-150150061,05/20/2022,05/27/2022,Economy,XCUST-695379,Aisha Ahmed,Consumer,Egypt,Cairo,SI,71491,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,817.4,1,0.0,-236.54
+63,GSH-150150062,03/23/2021,03/27/2021,Standard,XCUST-537357,Amelia Wong,Corporate,Singapore,Singapore,SI,88368,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,5757.3,10,0.0,1212.11
+64,GSH-150150063,07/18/2021,07/24/2021,Standard,XCUST-545109,Priya Sharma,Home Office,India,Delhi,BA,92723,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,1130.85,15,0.15,-255.02
+65,GSH-150150064,06/20/2021,06/26/2021,Express,XCUST-645394,Priya Sharma,Home Office,India,Delhi,BA,32105,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,7579.99,11,0.1,-964.28
+66,GSH-150150065,08/23/2021,08/24/2021,Overnight,XCUST-823109,Leila Hassan,Consumer,UAE,Dubai,CA,51371,Africa,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,6365.2,10,0.2,-163.6
+67,GSH-150150066,10/07/2021,10/10/2021,Overnight,XCUST-889760,Aisha Ahmed,Consumer,Egypt,Cairo,HO,77366,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,6309.42,13,0.0,569.94
+68,GSH-150150067,12/18/2022,12/25/2022,Standard,XCUST-742305,Hassan Ibrahim,Corporate,Turkey,Istanbul,IS,94242,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,2668.75,7,0.0,766.7
+69,GSH-150150068,01/30/2021,02/01/2021,Economy,XCUST-689550,Priya Sharma,Home Office,India,Delhi,DU,10369,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,2723.76,13,0.15,328.72
+70,GSH-150150069,09/13/2022,09/18/2022,Express,XCUST-674907,Hassan Ibrahim,Corporate,Turkey,Istanbul,BA,26531,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,1567.14,6,0.2,429.81
+71,GSH-150150070,11/22/2022,11/23/2022,Standard,XCUST-879204,Hassan Ibrahim,Corporate,Turkey,Istanbul,SI,56873,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,1384.18,14,0.2,464.45
+72,GSH-150150071,08/28/2021,09/06/2021,Standard,XCUST-885133,Rajesh Patel,Home Office,India,Bangalore,IS,17356,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,1677.5,11,0.2,-631.51
+73,GSH-150150072,09/04/2021,09/13/2021,Overnight,XCUST-781601,Aisha Ahmed,Consumer,Egypt,Cairo,DU,19483,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,4058.6,10,0.05,-324.86
+74,GSH-150150073,12/02/2022,12/07/2022,Express,XCUST-656008,Aisha Ahmed,Consumer,Egypt,Cairo,IS,23218,Asia,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,1338.15,15,0.05,72.07
+75,GSH-150150074,06/30/2022,07/08/2022,Express,XCUST-966928,Aisha Ahmed,Consumer,Egypt,Cairo,IS,96152,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,2517.15,5,0.2,-229.62
+76,GSH-150150075,02/21/2022,02/22/2022,Standard,XCUST-895367,Aisha Ahmed,Consumer,Egypt,Cairo,DU,31453,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,8538.88,14,0.0,-1129.62
+77,GSH-150150076,02/22/2021,02/27/2021,Overnight,XCUST-671156,Rajesh Patel,Home Office,India,Bangalore,DU,90448,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,3820.8,10,0.0,2219.58
+78,GSH-150150077,04/02/2021,04/09/2021,Economy,XCUST-913856,Hassan Ibrahim,Corporate,Turkey,Istanbul,CA,12068,Africa,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,2194.68,6,0.0,-597.87
+79,GSH-150150078,09/19/2021,09/20/2021,Standard,XCUST-628037,Aisha Ahmed,Consumer,Egypt,Cairo,DE,28967,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,2795.79,3,0.0,393.73
+80,GSH-150150079,06/23/2021,06/30/2021,Overnight,XCUST-821417,Priya Sharma,Home Office,India,Delhi,SI,75793,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,1397.34,9,0.0,782.93
+81,GSH-150150080,01/17/2021,01/20/2021,Standard,XCUST-893147,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,BA,15425,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,4082.26,14,0.1,-1533.05
+82,GSH-150150081,10/13/2022,10/16/2022,Standard,XCUST-798145,Amelia Wong,Corporate,Singapore,Singapore,CA,21517,Africa,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,9040.08,14,0.2,-960.0
+83,GSH-150150082,04/29/2021,05/02/2021,Overnight,XCUST-689006,Leila Hassan,Consumer,UAE,Dubai,DU,67196,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,1065.88,4,0.0,172.13
+84,GSH-150150083,10/02/2021,10/07/2021,Economy,XCUST-922200,Priya Sharma,Home Office,India,Delhi,IS,67570,Asia,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,1649.16,4,0.0,-618.0
+85,GSH-150150084,01/31/2021,02/02/2021,Economy,XCUST-623841,Aisha Ahmed,Consumer,Egypt,Cairo,HO,35776,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,12167.25,15,0.2,-3195.09
+86,GSH-150150085,04/28/2021,05/01/2021,Economy,XCUST-592659,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,BA,13500,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,1118.3,10,0.0,188.16
+87,GSH-150150086,04/25/2021,04/26/2021,Overnight,XCUST-541342,Amelia Wong,Corporate,Singapore,Singapore,BA,31346,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,8451.45,15,0.0,2692.63
+88,GSH-150150087,04/04/2021,04/05/2021,Overnight,XCUST-979922,Leila Hassan,Consumer,UAE,Dubai,HO,65006,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,258.66,6,0.2,-43.95
+89,GSH-150150088,01/08/2021,01/16/2021,Express,XCUST-966856,Rajesh Patel,Home Office,India,Bangalore,IS,34199,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,168.34,2,0.0,-16.07
+90,GSH-150150089,06/28/2022,07/04/2022,Standard,XCUST-950898,Rajesh Patel,Home Office,India,Bangalore,DU,65992,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,6057.27,9,0.05,-700.59
+91,GSH-150150090,10/24/2021,10/27/2021,Express,XCUST-801363,Aisha Ahmed,Consumer,Egypt,Cairo,SI,54113,Asia,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,5192.07,13,0.1,-1761.09
+92,GSH-150150091,02/14/2022,02/19/2022,Overnight,XCUST-547639,Aisha Ahmed,Consumer,Egypt,Cairo,DU,43239,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,1049.51,7,0.05,175.66
+93,GSH-150150092,06/20/2022,06/24/2022,Overnight,XCUST-742948,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,BA,43291,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,2626.71,3,0.0,681.81
+94,GSH-150150093,03/19/2022,03/26/2022,Economy,XCUST-839864,Amelia Wong,Corporate,Singapore,Singapore,CA,87902,Africa,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,11922.0,15,0.2,4717.85
+95,GSH-150150094,11/30/2021,12/05/2021,Standard,XCUST-703242,Leila Hassan,Consumer,UAE,Dubai,IS,23136,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,5451.84,12,0.15,1102.3
+96,GSH-150150095,04/16/2022,04/26/2022,Express,XCUST-637549,Rajesh Patel,Home Office,India,Bangalore,DE,52317,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,2029.0,5,0.2,-19.08
+97,GSH-150150096,05/14/2022,05/16/2022,Standard,XCUST-590244,Leila Hassan,Consumer,UAE,Dubai,DU,26726,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,791.15,1,0.0,349.37
+98,GSH-150150097,09/17/2021,09/22/2021,Overnight,XCUST-801460,Priya Sharma,Home Office,India,Delhi,DE,82577,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,1114.98,2,0.05,-432.53
+99,GSH-150150098,06/10/2021,06/13/2021,Economy,XCUST-736203,Rajesh Patel,Home Office,India,Bangalore,HO,55227,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,1671.6,3,0.0,-389.32
+100,GSH-150150099,05/18/2022,05/26/2022,Standard,XCUST-978406,Rajesh Patel,Home Office,India,Bangalore,BA,91052,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,360.3,5,0.05,11.15
+101,GSH-150150100,01/22/2022,01/30/2022,Overnight,XCUST-945378,Aisha Ahmed,Consumer,Egypt,Cairo,SI,29200,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,2515.52,8,0.05,-582.05
+102,GSH-150150101,10/18/2022,10/25/2022,Standard,XCUST-998503,Priya Sharma,Home Office,India,Delhi,HO,44645,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,253.5,13,0.0,31.97
+103,GSH-150150102,11/10/2021,11/17/2021,Economy,XCUST-946027,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,DE,46094,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,2564.84,4,0.0,-420.53
+104,GSH-150150103,07/13/2022,07/14/2022,Economy,XCUST-721410,Hassan Ibrahim,Corporate,Turkey,Istanbul,HO,22132,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,3138.64,4,0.2,1380.66
+105,GSH-150150104,06/14/2021,06/16/2021,Standard,XCUST-537972,Rajesh Patel,Home Office,India,Bangalore,DE,83776,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,4321.62,9,0.0,462.02
+106,GSH-150150105,12/27/2022,01/04/2023,Standard,XCUST-557285,Rajesh Patel,Home Office,India,Bangalore,IS,67967,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,1905.93,9,0.0,-363.7
+107,GSH-150150106,04/05/2021,04/15/2021,Overnight,XCUST-675873,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,DU,15335,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,1448.2,2,0.0,-523.01
+108,GSH-150150107,11/01/2021,11/06/2021,Economy,XCUST-882692,Rajesh Patel,Home Office,India,Bangalore,DE,60078,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,304.64,1,0.2,138.37
+109,GSH-150150108,03/24/2022,03/26/2022,Economy,XCUST-722919,Amelia Wong,Corporate,Singapore,Singapore,IS,67364,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,3865.55,5,0.15,-195.82
+110,GSH-150150109,07/30/2021,08/04/2021,Overnight,XCUST-679844,Priya Sharma,Home Office,India,Delhi,HO,61392,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,1757.37,3,0.0,-285.68
+111,GSH-150150110,12/23/2021,12/28/2021,Express,XCUST-954652,Amelia Wong,Corporate,Singapore,Singapore,DU,98804,Asia,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,1531.36,2,0.0,257.25
+112,GSH-150150111,08/06/2021,08/12/2021,Express,XCUST-547523,Leila Hassan,Consumer,UAE,Dubai,HO,70636,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,3997.76,13,0.05,38.51
+113,GSH-150150112,06/19/2022,06/20/2022,Overnight,XCUST-798454,Leila Hassan,Consumer,UAE,Dubai,HO,60804,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,5052.8,8,0.0,1742.79
+114,GSH-150150113,02/25/2021,03/02/2021,Express,XCUST-807324,Rajesh Patel,Home Office,India,Bangalore,IS,99869,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,357.9,3,0.0,91.32
+115,GSH-150150114,05/15/2021,05/24/2021,Overnight,XCUST-839464,Amelia Wong,Corporate,Singapore,Singapore,HO,33305,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,7171.2,15,0.0,-182.08
+116,GSH-150150115,10/29/2022,11/08/2022,Overnight,XCUST-561908,Hassan Ibrahim,Corporate,Turkey,Istanbul,BA,99160,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,627.66,2,0.2,68.52
+117,GSH-150150116,09/12/2022,09/20/2022,Express,XCUST-604933,Amelia Wong,Corporate,Singapore,Singapore,DE,15799,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,2250.48,8,0.0,263.27
+118,GSH-150150117,04/11/2022,04/14/2022,Overnight,XCUST-660718,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,HO,60770,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,4600.53,9,0.0,2450.4
+119,GSH-150150118,08/15/2021,08/17/2021,Express,XCUST-907006,Leila Hassan,Consumer,UAE,Dubai,DU,11425,Asia,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,2280.9,3,0.0,-651.97
+120,GSH-150150119,11/13/2022,11/22/2022,Overnight,XCUST-612065,Hassan Ibrahim,Corporate,Turkey,Istanbul,DE,15158,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,6519.84,12,0.0,117.98
+121,GSH-150150120,11/18/2022,11/19/2022,Express,XCUST-876723,Amelia Wong,Corporate,Singapore,Singapore,IS,34726,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,871.01,7,0.0,335.11
+122,GSH-150150121,02/24/2022,02/26/2022,Standard,XCUST-654226,Amelia Wong,Corporate,Singapore,Singapore,DE,75177,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,4985.92,8,0.15,2892.82
+123,GSH-150150122,04/02/2022,04/09/2022,Overnight,XCUST-939530,Rajesh Patel,Home Office,India,Bangalore,DE,74850,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,1490.51,7,0.2,-427.0
+124,GSH-150150123,01/09/2022,01/13/2022,Express,XCUST-828975,Hassan Ibrahim,Corporate,Turkey,Istanbul,HO,57798,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,5166.32,8,0.2,3075.41
+125,GSH-150150124,10/26/2022,11/05/2022,Standard,XCUST-707527,Aisha Ahmed,Consumer,Egypt,Cairo,SI,22780,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,11905.88,14,0.1,2742.7
+126,GSH-150150125,09/17/2021,09/25/2021,Overnight,XCUST-587828,Amelia Wong,Corporate,Singapore,Singapore,IS,37877,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,13992.3,15,0.0,-4171.23
+127,GSH-150150126,08/25/2021,09/01/2021,Economy,XCUST-711094,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,SI,81191,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,3117.12,8,0.05,936.4
+128,GSH-150150127,03/28/2021,04/06/2021,Economy,XCUST-823998,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,SI,87111,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,2000.4,6,0.0,-166.15
+129,GSH-150150128,05/18/2021,05/24/2021,Economy,XCUST-816662,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,HO,94083,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,6888.09,11,0.0,-284.74
+130,GSH-150150129,04/04/2022,04/05/2022,Express,XCUST-747071,Rajesh Patel,Home Office,India,Bangalore,SI,69094,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,5095.44,14,0.15,-1468.34
+131,GSH-150150130,06/09/2022,06/12/2022,Express,XCUST-769393,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,DU,34131,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,1750.4,8,0.05,-567.87
+132,GSH-150150131,08/01/2021,08/04/2021,Economy,XCUST-569854,Priya Sharma,Home Office,India,Delhi,DE,40424,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,813.3,1,0.0,-159.13
+133,GSH-150150132,08/05/2021,08/10/2021,Economy,XCUST-841576,Hassan Ibrahim,Corporate,Turkey,Istanbul,IS,10670,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,704.1,3,0.0,284.72
+134,GSH-150150133,03/16/2021,03/24/2021,Economy,XCUST-784789,Priya Sharma,Home Office,India,Delhi,CA,67273,Africa,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,5405.73,11,0.2,270.6
+135,GSH-150150134,09/14/2022,09/20/2022,Economy,XCUST-878438,Priya Sharma,Home Office,India,Delhi,DU,95990,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,1371.69,9,0.05,653.9
+136,GSH-150150135,03/03/2022,03/05/2022,Standard,XCUST-878977,Rajesh Patel,Home Office,India,Bangalore,CA,81671,Africa,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,5386.16,13,0.1,1100.6
+137,GSH-150150136,11/18/2022,11/19/2022,Express,XCUST-966555,Priya Sharma,Home Office,India,Delhi,BA,49788,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,7840.2,15,0.0,-1222.7
+138,GSH-150150137,08/13/2021,08/23/2021,Overnight,XCUST-515094,Aisha Ahmed,Consumer,Egypt,Cairo,DE,86529,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,7427.97,11,0.0,50.68
+139,GSH-150150138,09/20/2022,09/21/2022,Standard,XCUST-629068,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,HO,35128,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,4984.3,10,0.2,2361.13
+140,GSH-150150139,12/28/2022,12/29/2022,Standard,XCUST-704456,Leila Hassan,Consumer,UAE,Dubai,IS,61033,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,13647.0,15,0.15,-1102.44
+141,GSH-150150140,02/06/2022,02/16/2022,Express,XCUST-703349,Aisha Ahmed,Consumer,Egypt,Cairo,SI,62191,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,6021.44,8,0.0,-1974.08
+142,GSH-150150141,11/04/2021,11/10/2021,Economy,XCUST-604683,Priya Sharma,Home Office,India,Delhi,IS,35778,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,3970.75,5,0.15,-1215.97
+143,GSH-150150142,10/16/2021,10/25/2021,Economy,XCUST-640574,Priya Sharma,Home Office,India,Delhi,DE,63549,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,2726.65,5,0.0,976.77
+144,GSH-150150143,05/10/2022,05/12/2022,Standard,XCUST-517015,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,SI,90981,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,11200.67,13,0.15,3608.07
+145,GSH-150150144,04/25/2022,04/27/2022,Overnight,XCUST-777605,Rajesh Patel,Home Office,India,Bangalore,DE,36909,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,573.6,3,0.0,84.88
+146,GSH-150150145,03/07/2021,03/10/2021,Overnight,XCUST-758098,Priya Sharma,Home Office,India,Delhi,DE,25265,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,1332.52,2,0.1,434.32
+147,GSH-150150146,02/13/2021,02/17/2021,Overnight,XCUST-898663,Hassan Ibrahim,Corporate,Turkey,Istanbul,HO,10624,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,3710.5,10,0.0,-721.51
+148,GSH-150150147,03/11/2021,03/16/2021,Economy,XCUST-619304,Hassan Ibrahim,Corporate,Turkey,Istanbul,HO,61088,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,935.22,3,0.2,136.93
+149,GSH-150150148,03/26/2021,04/01/2021,Overnight,XCUST-650734,Aisha Ahmed,Consumer,Egypt,Cairo,HO,85077,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,6675.75,9,0.05,986.88
+150,GSH-150150149,08/24/2021,08/28/2021,Economy,XCUST-754991,Amelia Wong,Corporate,Singapore,Singapore,BA,65746,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,809.0,2,0.05,438.75
+151,GSH-150150150,04/29/2022,05/01/2022,Economy,XCUST-863443,Leila Hassan,Consumer,UAE,Dubai,DU,60697,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,5898.48,12,0.1,-2324.08
+152,GSH-150150151,01/19/2022,01/28/2022,Express,XCUST-699053,Aisha Ahmed,Consumer,Egypt,Cairo,IS,58389,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,1288.46,2,0.0,-351.38
+153,GSH-150150152,11/22/2021,11/29/2021,Express,XCUST-758821,Amelia Wong,Corporate,Singapore,Singapore,CA,55558,Africa,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,357.08,2,0.0,164.41
+154,GSH-150150153,12/05/2022,12/07/2022,Economy,XCUST-943836,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,BA,41273,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,1968.54,6,0.15,1092.25
+155,GSH-150150154,08/08/2021,08/16/2021,Standard,XCUST-614185,Amelia Wong,Corporate,Singapore,Singapore,BA,77663,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,2119.5,5,0.0,783.82
+156,GSH-150150155,09/16/2022,09/25/2022,Standard,XCUST-537707,Leila Hassan,Consumer,UAE,Dubai,SI,89154,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,3757.2,12,0.0,1363.68
+157,GSH-150150156,07/27/2022,08/02/2022,Overnight,XCUST-824245,Rajesh Patel,Home Office,India,Bangalore,HO,70592,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,831.48,12,0.0,-126.76
+158,GSH-150150157,10/23/2022,10/27/2022,Overnight,XCUST-763648,Leila Hassan,Consumer,UAE,Dubai,DU,10086,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,6126.56,8,0.15,3492.6
+159,GSH-150150158,10/19/2021,10/27/2021,Economy,XCUST-903555,Rajesh Patel,Home Office,India,Bangalore,CA,19422,Africa,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,10897.95,15,0.2,6492.28
+160,GSH-150150159,03/02/2022,03/09/2022,Express,XCUST-590669,Priya Sharma,Home Office,India,Delhi,BA,39281,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,418.38,1,0.1,59.63
+161,GSH-150150160,12/09/2022,12/17/2022,Express,XCUST-590188,Amelia Wong,Corporate,Singapore,Singapore,HO,51341,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,1618.77,3,0.0,-489.33
+162,GSH-150150161,08/14/2022,08/20/2022,Economy,XCUST-649052,Aisha Ahmed,Consumer,Egypt,Cairo,BA,51444,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,1286.6,5,0.0,718.47
+163,GSH-150150162,11/24/2021,11/29/2021,Economy,XCUST-722888,Leila Hassan,Consumer,UAE,Dubai,CA,98238,Africa,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,1727.04,8,0.0,472.14
+164,GSH-150150163,01/19/2021,01/28/2021,Overnight,XCUST-779571,Amelia Wong,Corporate,Singapore,Singapore,IS,97500,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,7160.0,10,0.0,-2328.44
+165,GSH-150150164,12/01/2021,12/05/2021,Overnight,XCUST-855710,Priya Sharma,Home Office,India,Delhi,SI,44373,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,7468.24,8,0.0,847.18
+166,GSH-150150165,02/21/2022,02/28/2022,Overnight,XCUST-583909,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,BA,51556,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,3197.6,4,0.1,-1068.62
+167,GSH-150150166,10/13/2022,10/14/2022,Standard,XCUST-871723,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,CA,14076,Africa,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,5370.2,10,0.0,661.17
+168,GSH-150150167,12/08/2022,12/12/2022,Overnight,XCUST-774596,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,DE,37433,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,4603.08,12,0.1,-1739.23
+169,GSH-150150168,01/23/2021,01/29/2021,Overnight,XCUST-549870,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,BA,70635,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,1824.88,4,0.0,197.39
+170,GSH-150150169,06/01/2022,06/06/2022,Overnight,XCUST-500336,Aisha Ahmed,Consumer,Egypt,Cairo,CA,23222,Africa,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,6642.8,10,0.2,2766.27
+171,GSH-150150170,06/02/2021,06/03/2021,Overnight,XCUST-984506,Amelia Wong,Corporate,Singapore,Singapore,SI,93597,Asia,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,2439.2,5,0.0,-634.88
+172,GSH-150150171,02/20/2022,03/01/2022,Overnight,XCUST-855302,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,HO,62452,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,7968.9,15,0.0,-2526.67
+173,GSH-150150172,07/06/2022,07/07/2022,Express,XCUST-961563,Aisha Ahmed,Consumer,Egypt,Cairo,IS,84022,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,3640.23,11,0.05,883.95
+174,GSH-150150173,01/12/2022,01/19/2022,Economy,XCUST-985827,Rajesh Patel,Home Office,India,Bangalore,CA,37167,Africa,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,3636.45,15,0.0,937.81
+175,GSH-150150174,02/08/2021,02/18/2021,Standard,XCUST-661753,Leila Hassan,Consumer,UAE,Dubai,HO,20770,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,8812.2,12,0.0,4382.78
+176,GSH-150150175,08/01/2022,08/07/2022,Express,XCUST-954066,Priya Sharma,Home Office,India,Delhi,HO,46076,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,3024.14,7,0.0,436.5
+177,GSH-150150176,06/26/2022,07/04/2022,Economy,XCUST-900668,Priya Sharma,Home Office,India,Delhi,HO,61265,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,3577.08,12,0.0,-1145.83
+178,GSH-150150177,04/02/2022,04/08/2022,Economy,XCUST-552658,Rajesh Patel,Home Office,India,Bangalore,BA,44161,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,3686.85,5,0.1,1305.38
+179,GSH-150150178,02/18/2022,02/19/2022,Overnight,XCUST-754540,Rajesh Patel,Home Office,India,Bangalore,IS,37815,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,4307.64,12,0.1,-581.54
+180,GSH-150150179,01/20/2021,01/24/2021,Overnight,XCUST-983209,Aisha Ahmed,Consumer,Egypt,Cairo,SI,55245,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,9036.3,14,0.1,1039.1
+181,GSH-150150180,01/23/2021,01/28/2021,Express,XCUST-792015,Priya Sharma,Home Office,India,Delhi,DU,35957,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,1343.68,2,0.0,-29.84
+182,GSH-150150181,10/07/2021,10/12/2021,Economy,XCUST-954783,Amelia Wong,Corporate,Singapore,Singapore,CA,48146,Africa,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,7416.3,10,0.0,-898.98
+183,GSH-150150182,01/12/2021,01/14/2021,Express,XCUST-697389,Leila Hassan,Consumer,UAE,Dubai,HO,10301,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,2703.18,3,0.2,59.99
+184,GSH-150150183,01/22/2021,01/27/2021,Economy,XCUST-979092,Hassan Ibrahim,Corporate,Turkey,Istanbul,CA,47499,Africa,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,4765.09,11,0.0,-1662.87
+185,GSH-150150184,07/25/2022,07/31/2022,Standard,XCUST-520086,Hassan Ibrahim,Corporate,Turkey,Istanbul,HO,70405,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,3816.15,13,0.0,1538.43
+186,GSH-150150185,05/14/2021,05/24/2021,Standard,XCUST-965462,Leila Hassan,Consumer,UAE,Dubai,CA,53506,Africa,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,942.42,3,0.1,397.98
+187,GSH-150150186,10/07/2021,10/17/2021,Economy,XCUST-921327,Priya Sharma,Home Office,India,Delhi,IS,28875,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,3203.05,5,0.15,-793.48
+188,GSH-150150187,01/04/2021,01/12/2021,Express,XCUST-567113,Amelia Wong,Corporate,Singapore,Singapore,IS,95342,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,3902.36,7,0.0,-785.54
+189,GSH-150150188,12/16/2021,12/18/2021,Overnight,XCUST-573022,Priya Sharma,Home Office,India,Delhi,CA,52096,Africa,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,3596.7,6,0.1,-635.67
+190,GSH-150150189,07/11/2022,07/14/2022,Economy,XCUST-793502,Priya Sharma,Home Office,India,Delhi,IS,24000,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,513.27,3,0.2,-32.39
+191,GSH-150150190,07/01/2021,07/10/2021,Standard,XCUST-649837,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,HO,29098,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,1155.9,15,0.1,-130.06
+192,GSH-150150191,07/18/2022,07/28/2022,Overnight,XCUST-557912,Hassan Ibrahim,Corporate,Turkey,Istanbul,SI,20470,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,4690.56,7,0.15,2165.43
+193,GSH-150150192,07/21/2021,07/29/2021,Standard,XCUST-736252,Amelia Wong,Corporate,Singapore,Singapore,DE,96328,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,3486.86,13,0.0,-358.67
+194,GSH-150150193,02/24/2021,02/25/2021,Express,XCUST-962398,Priya Sharma,Home Office,India,Delhi,IS,31556,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,299.64,6,0.15,55.58
+195,GSH-150150194,02/24/2021,02/28/2021,Overnight,XCUST-758222,Rajesh Patel,Home Office,India,Bangalore,SI,81204,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,1055.34,3,0.0,276.95
+196,GSH-150150195,10/19/2021,10/28/2021,Economy,XCUST-662684,Leila Hassan,Consumer,UAE,Dubai,SI,89285,Asia,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,4022.28,12,0.0,-448.46
+197,GSH-150150196,05/28/2021,06/02/2021,Overnight,XCUST-843468,Leila Hassan,Consumer,UAE,Dubai,SI,25441,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,310.98,1,0.0,130.49
+198,GSH-150150197,03/05/2021,03/06/2021,Standard,XCUST-563949,Leila Hassan,Consumer,UAE,Dubai,CA,31899,Africa,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,3423.66,6,0.05,590.07
+199,GSH-150150198,08/10/2022,08/19/2022,Express,XCUST-794154,Amelia Wong,Corporate,Singapore,Singapore,DE,29788,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,6275.62,13,0.0,-365.94
+200,GSH-150150199,05/23/2022,05/26/2022,Standard,XCUST-950378,Leila Hassan,Consumer,UAE,Dubai,DE,75858,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,1680.15,5,0.1,195.92
+201,GSH-150150200,09/06/2022,09/14/2022,Economy,XCUST-607789,Amelia Wong,Corporate,Singapore,Singapore,CA,63629,Africa,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,8994.02,14,0.05,4174.59
+202,GSH-150150201,08/03/2021,08/13/2021,Overnight,XCUST-502215,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,HO,38783,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,330.72,1,0.0,-72.32
+203,GSH-150150202,05/03/2021,05/06/2021,Standard,XCUST-752862,Aisha Ahmed,Consumer,Egypt,Cairo,CA,51253,Africa,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,1534.56,8,0.0,-343.53
+204,GSH-150150203,03/28/2022,04/07/2022,Express,XCUST-596711,Aisha Ahmed,Consumer,Egypt,Cairo,DU,99945,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,10446.96,12,0.1,-612.46
+205,GSH-150150204,10/30/2021,11/03/2021,Express,XCUST-951569,Rajesh Patel,Home Office,India,Bangalore,CA,43157,Africa,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,2385.96,4,0.0,565.53
+206,GSH-150150205,05/26/2022,06/05/2022,Economy,XCUST-554849,Leila Hassan,Consumer,UAE,Dubai,DU,79961,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,4524.12,6,0.2,-481.69
+207,GSH-150150206,02/25/2021,03/03/2021,Overnight,XCUST-647714,Hassan Ibrahim,Corporate,Turkey,Istanbul,DU,29650,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,686.73,11,0.15,27.57
+208,GSH-150150207,11/25/2022,12/04/2022,Standard,XCUST-897611,Amelia Wong,Corporate,Singapore,Singapore,SI,52450,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,8761.68,12,0.0,-2550.28
+209,GSH-150150208,10/23/2021,11/02/2021,Overnight,XCUST-514530,Hassan Ibrahim,Corporate,Turkey,Istanbul,BA,90006,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,13014.43,13,0.0,1385.46
+210,GSH-150150209,11/29/2021,12/02/2021,Express,XCUST-996410,Rajesh Patel,Home Office,India,Bangalore,BA,16220,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,3989.65,7,0.0,2234.53
+211,GSH-150150210,11/17/2022,11/18/2022,Standard,XCUST-825764,Priya Sharma,Home Office,India,Delhi,DE,27642,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,983.76,4,0.15,570.72
+212,GSH-150150211,07/22/2022,07/28/2022,Overnight,XCUST-775143,Aisha Ahmed,Consumer,Egypt,Cairo,CA,22231,Africa,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,1371.84,3,0.1,696.18
+213,GSH-150150212,06/13/2021,06/22/2021,Standard,XCUST-708915,Rajesh Patel,Home Office,India,Bangalore,SI,52758,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,539.71,1,0.1,89.52
+214,GSH-150150213,09/26/2022,09/28/2022,Express,XCUST-637920,Aisha Ahmed,Consumer,Egypt,Cairo,CA,69401,Africa,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,2961.92,8,0.15,-252.95
+215,GSH-150150214,04/29/2022,05/01/2022,Economy,XCUST-958512,Rajesh Patel,Home Office,India,Bangalore,SI,58423,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,2899.68,8,0.1,-976.24
+216,GSH-150150215,02/16/2022,02/17/2022,Express,XCUST-867405,Hassan Ibrahim,Corporate,Turkey,Istanbul,CA,29198,Africa,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,2310.92,4,0.1,1173.49
+217,GSH-150150216,02/05/2022,02/09/2022,Express,XCUST-904192,Aisha Ahmed,Consumer,Egypt,Cairo,SI,17998,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,5545.26,14,0.15,-2025.25
+218,GSH-150150217,08/04/2021,08/13/2021,Express,XCUST-958970,Amelia Wong,Corporate,Singapore,Singapore,IS,58727,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,1292.85,15,0.05,-374.84
+219,GSH-150150218,08/21/2022,08/24/2022,Economy,XCUST-624478,Amelia Wong,Corporate,Singapore,Singapore,DU,53373,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,375.87,3,0.0,-52.79
+220,GSH-150150219,08/08/2021,08/15/2021,Overnight,XCUST-528928,Rajesh Patel,Home Office,India,Bangalore,HO,96099,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,2532.04,4,0.0,1423.39
+221,GSH-150150220,04/02/2022,04/10/2022,Economy,XCUST-752866,Leila Hassan,Consumer,UAE,Dubai,IS,43222,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,1155.14,7,0.05,-222.87
+222,GSH-150150221,06/03/2021,06/10/2021,Overnight,XCUST-820829,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,DE,62356,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,12831.6,15,0.15,4022.58
+223,GSH-150150222,01/08/2022,01/13/2022,Overnight,XCUST-918423,Aisha Ahmed,Consumer,Egypt,Cairo,HO,65999,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,4680.24,12,0.05,2402.97
+224,GSH-150150223,02/16/2021,02/23/2021,Express,XCUST-836144,Hassan Ibrahim,Corporate,Turkey,Istanbul,DU,45485,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,1699.2,5,0.05,-365.64
+225,GSH-150150224,06/07/2021,06/16/2021,Express,XCUST-629132,Rajesh Patel,Home Office,India,Bangalore,DE,81988,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,145.33,1,0.0,-39.07
+226,GSH-150150225,10/18/2021,10/27/2021,Standard,XCUST-644491,Aisha Ahmed,Consumer,Egypt,Cairo,CA,61912,Africa,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,10755.6,12,0.0,-860.56
+227,GSH-150150226,10/25/2021,10/30/2021,Economy,XCUST-560154,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,CA,73784,Africa,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,664.66,2,0.0,315.28
+228,GSH-150150227,10/18/2022,10/21/2022,Overnight,XCUST-707399,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,CA,18831,Africa,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,3103.08,6,0.0,828.72
+229,GSH-150150228,06/26/2021,06/29/2021,Economy,XCUST-764523,Priya Sharma,Home Office,India,Delhi,DE,85427,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,3182.25,5,0.05,62.0
+230,GSH-150150229,10/29/2021,11/02/2021,Economy,XCUST-526807,Priya Sharma,Home Office,India,Delhi,SI,46853,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,7885.44,9,0.1,3142.12
+231,GSH-150150230,12/24/2021,12/25/2021,Express,XCUST-739790,Aisha Ahmed,Consumer,Egypt,Cairo,SI,53964,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,778.7,5,0.0,259.6
+232,GSH-150150231,01/30/2022,02/08/2022,Standard,XCUST-898387,Leila Hassan,Consumer,UAE,Dubai,BA,48867,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,2985.96,12,0.2,1015.05
+233,GSH-150150232,01/28/2021,02/06/2021,Standard,XCUST-933963,Hassan Ibrahim,Corporate,Turkey,Istanbul,BA,79158,Asia,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,12037.74,13,0.0,5488.33
+234,GSH-150150233,10/31/2021,11/01/2021,Standard,XCUST-937252,Leila Hassan,Consumer,UAE,Dubai,SI,61023,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,489.15,9,0.15,191.01
+235,GSH-150150234,10/09/2022,10/11/2022,Express,XCUST-860960,Hassan Ibrahim,Corporate,Turkey,Istanbul,CA,41365,Africa,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,5571.9,15,0.05,1958.54
+236,GSH-150150235,04/05/2022,04/12/2022,Overnight,XCUST-907509,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,SI,92626,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,1224.72,9,0.05,547.18
+237,GSH-150150236,05/02/2021,05/06/2021,Overnight,XCUST-704863,Aisha Ahmed,Consumer,Egypt,Cairo,IS,83663,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,701.95,5,0.1,125.27
+238,GSH-150150237,01/03/2021,01/10/2021,Overnight,XCUST-548416,Rajesh Patel,Home Office,India,Bangalore,HO,19262,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,1255.04,2,0.0,-302.8
+239,GSH-150150238,04/26/2022,05/05/2022,Economy,XCUST-624197,Priya Sharma,Home Office,India,Delhi,DU,84655,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,3159.09,9,0.0,1622.37
+240,GSH-150150239,10/03/2021,10/08/2021,Express,XCUST-712592,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,CA,89737,Africa,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,1970.22,14,0.15,869.06
+241,GSH-150150240,03/04/2022,03/13/2022,Economy,XCUST-888312,Hassan Ibrahim,Corporate,Turkey,Istanbul,HO,22259,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,6399.47,11,0.0,2700.41
+242,GSH-150150241,02/28/2021,03/10/2021,Standard,XCUST-741277,Hassan Ibrahim,Corporate,Turkey,Istanbul,DU,47652,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,7722.78,13,0.05,-499.85
+243,GSH-150150242,08/12/2022,08/13/2022,Standard,XCUST-682604,Hassan Ibrahim,Corporate,Turkey,Istanbul,CA,24070,Africa,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,13065.45,15,0.0,4512.47
+244,GSH-150150243,11/09/2021,11/17/2021,Express,XCUST-745761,Priya Sharma,Home Office,India,Delhi,HO,53779,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,1544.14,13,0.0,795.95
+245,GSH-150150244,08/08/2021,08/11/2021,Economy,XCUST-832998,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,HO,88287,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,2872.0,8,0.0,844.18
+246,GSH-150150245,02/24/2021,02/26/2021,Express,XCUST-738766,Priya Sharma,Home Office,India,Delhi,SI,59086,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,977.72,2,0.0,269.87
+247,GSH-150150246,11/20/2021,11/26/2021,Economy,XCUST-620736,Amelia Wong,Corporate,Singapore,Singapore,DU,29262,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,810.96,3,0.0,-289.16
+248,GSH-150150247,08/22/2021,08/31/2021,Express,XCUST-618962,Rajesh Patel,Home Office,India,Bangalore,SI,64748,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,2612.2,5,0.2,132.46
+249,GSH-150150248,12/22/2022,12/31/2022,Standard,XCUST-827286,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,BA,34988,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,6503.7,15,0.0,-423.42
+250,GSH-150150249,05/06/2022,05/11/2022,Standard,XCUST-955621,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,IS,84963,Asia,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,5217.59,7,0.15,2543.52
+251,GSH-150150250,05/25/2022,06/02/2022,Overnight,XCUST-539303,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,DU,38860,Asia,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,1539.93,7,0.0,-594.67
+252,GSH-150150251,03/08/2021,03/12/2021,Standard,XCUST-863666,Leila Hassan,Consumer,UAE,Dubai,DE,19740,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,2217.75,5,0.0,83.84
+253,GSH-150150252,05/06/2021,05/08/2021,Overnight,XCUST-554634,Amelia Wong,Corporate,Singapore,Singapore,HO,85047,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,2074.35,5,0.15,703.07
+254,GSH-150150253,04/15/2021,04/20/2021,Express,XCUST-962432,Aisha Ahmed,Consumer,Egypt,Cairo,HO,40394,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,8845.95,15,0.05,3616.34
+255,GSH-150150254,04/23/2021,04/26/2021,Economy,XCUST-641694,Leila Hassan,Consumer,UAE,Dubai,SI,82188,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,3532.75,5,0.0,-55.88
+256,GSH-150150255,09/21/2022,09/25/2022,Economy,XCUST-560275,Amelia Wong,Corporate,Singapore,Singapore,CA,14652,Africa,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,2447.55,7,0.0,630.64
+257,GSH-150150256,10/30/2022,11/04/2022,Standard,XCUST-699352,Amelia Wong,Corporate,Singapore,Singapore,CA,41676,Africa,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,8280.45,15,0.0,1537.32
+258,GSH-150150257,03/16/2021,03/18/2021,Express,XCUST-677485,Leila Hassan,Consumer,UAE,Dubai,DE,98540,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,3538.5,14,0.15,-557.77
+259,GSH-150150258,08/13/2021,08/15/2021,Standard,XCUST-937157,Rajesh Patel,Home Office,India,Bangalore,DE,16549,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,2258.9,7,0.15,436.26
+260,GSH-150150259,05/31/2021,06/07/2021,Express,XCUST-697860,Hassan Ibrahim,Corporate,Turkey,Istanbul,IS,27388,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,425.12,1,0.0,2.22
+261,GSH-150150260,09/28/2022,10/02/2022,Overnight,XCUST-801668,Rajesh Patel,Home Office,India,Bangalore,DE,98114,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,6382.32,14,0.15,1899.13
+262,GSH-150150261,06/07/2021,06/12/2021,Overnight,XCUST-857508,Aisha Ahmed,Consumer,Egypt,Cairo,DE,12327,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,10386.09,11,0.1,433.59
+263,GSH-150150262,04/10/2022,04/17/2022,Overnight,XCUST-863591,Hassan Ibrahim,Corporate,Turkey,Istanbul,SI,28951,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,1870.76,4,0.1,882.79
+264,GSH-150150263,01/09/2022,01/16/2022,Express,XCUST-656396,Rajesh Patel,Home Office,India,Bangalore,IS,29880,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,1520.4,3,0.0,-363.31
+265,GSH-150150264,06/18/2021,06/25/2021,Economy,XCUST-801720,Rajesh Patel,Home Office,India,Bangalore,BA,83863,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,8883.0,15,0.2,2253.55
+266,GSH-150150265,07/18/2021,07/22/2021,Standard,XCUST-602689,Hassan Ibrahim,Corporate,Turkey,Istanbul,BA,39857,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,5463.08,14,0.0,-543.51
+267,GSH-150150266,05/20/2022,05/23/2022,Economy,XCUST-823616,Aisha Ahmed,Consumer,Egypt,Cairo,SI,33694,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,1049.49,9,0.1,-375.12
+268,GSH-150150267,12/15/2022,12/18/2022,Economy,XCUST-713052,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,SI,97520,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,3601.55,5,0.0,2042.79
+269,GSH-150150268,03/23/2021,03/27/2021,Standard,XCUST-667955,Rajesh Patel,Home Office,India,Bangalore,CA,58810,Africa,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,2752.44,4,0.05,-136.85
+270,GSH-150150269,12/09/2021,12/13/2021,Standard,XCUST-988089,Priya Sharma,Home Office,India,Delhi,DU,16235,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,2625.7,7,0.0,314.64
+271,GSH-150150270,08/30/2022,08/31/2022,Standard,XCUST-835189,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,SI,59446,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,4880.46,13,0.05,337.91
+272,GSH-150150271,02/22/2021,03/04/2021,Standard,XCUST-935613,Aisha Ahmed,Consumer,Egypt,Cairo,DE,26630,Asia,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,532.28,7,0.0,-28.12
+273,GSH-150150272,03/03/2021,03/10/2021,Economy,XCUST-681745,Leila Hassan,Consumer,UAE,Dubai,HO,32093,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,2298.4,4,0.0,-573.2
+274,GSH-150150273,05/27/2022,05/31/2022,Standard,XCUST-914104,Priya Sharma,Home Office,India,Delhi,HO,40998,Asia,PRD-NEW-2024-SP001,Sports,Fitness,Yoga Mat Pro 6mm,1413.55,5,0.0,186.57
+275,GSH-150150274,02/14/2022,02/23/2022,Overnight,XCUST-999533,Priya Sharma,Home Office,India,Delhi,CA,59475,Africa,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,2532.0,4,0.0,-1000.69
+276,GSH-150150275,03/31/2021,04/09/2021,Standard,XCUST-554156,Amelia Wong,Corporate,Singapore,Singapore,DE,68492,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,5336.28,6,0.0,1796.25
+277,GSH-150150276,08/09/2022,08/10/2022,Express,XCUST-863920,Rajesh Patel,Home Office,India,Bangalore,BA,13896,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,1291.7,2,0.0,446.95
+278,GSH-150150277,11/20/2022,11/21/2022,Express,XCUST-746392,Priya Sharma,Home Office,India,Delhi,IS,60572,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,4888.32,6,0.1,1242.59
+279,GSH-150150278,06/23/2022,06/24/2022,Express,XCUST-639166,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,DE,68842,Asia,PRD-NEW-2024-EL001,Electronics,Computers,Ultra Gaming Laptop RTX 4090,898.85,5,0.05,449.02
+280,GSH-150150279,05/01/2022,05/11/2022,Overnight,XCUST-609787,Amelia Wong,Corporate,Singapore,Singapore,DU,84583,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,999.5,10,0.0,395.1
+281,GSH-150150280,09/04/2021,09/09/2021,Economy,XCUST-593312,Priya Sharma,Home Office,India,Delhi,SI,37542,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,5034.45,15,0.0,-1062.36
+282,GSH-150150281,06/27/2022,07/03/2022,Express,XCUST-904508,Amelia Wong,Corporate,Singapore,Singapore,HO,33182,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,3519.99,9,0.0,-573.67
+283,GSH-150150282,09/02/2021,09/06/2021,Standard,XCUST-738233,Leila Hassan,Consumer,UAE,Dubai,DU,91879,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,2573.4,6,0.1,-1002.13
+284,GSH-150150283,08/18/2022,08/19/2022,Express,XCUST-697271,Hassan Ibrahim,Corporate,Turkey,Istanbul,SI,47600,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,2411.6,5,0.15,-680.78
+285,GSH-150150284,10/26/2022,10/28/2022,Overnight,XCUST-572587,Priya Sharma,Home Office,India,Delhi,HO,75566,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,4610.24,8,0.2,1737.44
+286,GSH-150150285,07/15/2021,07/21/2021,Express,XCUST-858535,Priya Sharma,Home Office,India,Delhi,SI,44231,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,191.2,5,0.0,34.78
+287,GSH-150150286,04/18/2022,04/24/2022,Express,XCUST-739025,Amelia Wong,Corporate,Singapore,Singapore,DE,83231,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,2163.84,4,0.0,963.11
+288,GSH-150150287,11/08/2021,11/12/2021,Overnight,XCUST-939238,Leila Hassan,Consumer,UAE,Dubai,DU,26200,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,5024.97,9,0.05,-1932.32
+289,GSH-150150288,02/11/2022,02/19/2022,Standard,XCUST-626704,Aisha Ahmed,Consumer,Egypt,Cairo,IS,41276,Asia,PRD-NEW-2024-HM003,Home & Garden,Kitchen,Stainless Steel Cookware Set,2900.08,8,0.1,688.06
+290,GSH-150150289,07/02/2021,07/08/2021,Express,XCUST-960228,Aisha Ahmed,Consumer,Egypt,Cairo,DE,35131,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,313.95,1,0.0,81.8
+291,GSH-150150290,11/04/2021,11/09/2021,Economy,XCUST-754337,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,CA,67515,Africa,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,2251.84,4,0.05,-194.95
+292,GSH-150150291,09/15/2022,09/23/2022,Overnight,XCUST-601023,Priya Sharma,Home Office,India,Delhi,DU,42099,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,6677.85,15,0.0,3902.03
+293,GSH-150150292,08/30/2021,09/01/2021,Standard,XCUST-565787,Aisha Ahmed,Consumer,Egypt,Cairo,HO,26728,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,137.1,5,0.0,64.73
+294,GSH-150150293,11/14/2022,11/18/2022,Economy,XCUST-942360,Leila Hassan,Consumer,UAE,Dubai,BA,98049,Asia,PRD-NEW-2024-CL001,Clothing,Men,Premium Cotton T-Shirt,1645.56,3,0.0,-485.11
+295,GSH-150150294,11/04/2021,11/08/2021,Standard,XCUST-600487,Aisha Ahmed,Consumer,Egypt,Cairo,SI,73794,Asia,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,1987.2,2,0.0,561.59
+296,GSH-150150295,11/06/2021,11/07/2021,Standard,XCUST-626276,Aisha Ahmed,Consumer,Egypt,Cairo,SI,60623,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,5083.32,11,0.0,1869.39
+297,GSH-150150296,06/30/2022,07/02/2022,Economy,XCUST-538402,Amelia Wong,Corporate,Singapore,Singapore,SI,12955,Asia,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,2565.08,4,0.05,863.92
+298,GSH-150150297,12/08/2021,12/12/2021,Economy,XCUST-786396,Priya Sharma,Home Office,India,Delhi,DE,61763,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,11219.7,15,0.15,2316.81
+299,GSH-150150298,04/14/2022,04/22/2022,Overnight,XCUST-960026,Priya Sharma,Home Office,India,Delhi,CA,67033,Africa,PRD-NEW-2024-CL002,Clothing,Women,Denim Jeans Classic Blue,2447.15,5,0.1,-158.49
+300,GSH-150150299,03/13/2021,03/20/2021,Standard,XCUST-835195,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,BA,32785,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,11140.68,12,0.15,3704.8
+301,GSH-150150300,04/14/2021,04/23/2021,Express,XCUST-595401,Nguyen Tran,Consumer,Vietnam,Ho Chi Minh,CA,49957,Africa,PRD-NEW-2024-CL003,Clothing,Accessories,Leather Belt Premium,4371.92,14,0.1,2226.42
+302,GSH-150150301,09/26/2021,10/06/2021,Overnight,XCUST-716260,Aisha Ahmed,Consumer,Egypt,Cairo,CA,88232,Africa,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,1893.68,8,0.15,294.54
+303,GSH-150150302,04/16/2021,04/26/2021,Economy,XCUST-674430,Leila Hassan,Consumer,UAE,Dubai,CA,17197,Africa,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,1332.28,4,0.1,401.12
+304,GSH-150150303,10/12/2022,10/22/2022,Standard,XCUST-785703,Leila Hassan,Consumer,UAE,Dubai,SI,62111,Asia,PRD-NEW-2024-SP002,Sports,Outdoor,Camping Tent 4 Person,2550.9,3,0.0,534.84
+305,GSH-150150304,06/13/2021,06/23/2021,Express,XCUST-631177,Aisha Ahmed,Consumer,Egypt,Cairo,HO,56018,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,7851.68,8,0.2,2905.86
+306,GSH-150150305,08/09/2021,08/15/2021,Express,XCUST-550076,Aisha Ahmed,Consumer,Egypt,Cairo,DE,51792,Asia,PRD-NEW-2024-HM001,Home & Garden,Furniture,L-Shape Sofa Leather,906.94,2,0.05,-45.0
+307,GSH-150150306,06/02/2022,06/11/2022,Standard,XCUST-861817,Rajesh Patel,Home Office,India,Bangalore,BA,78029,Asia,PRD-NEW-2024-SP003,Sports,Cycling,Mountain Bike Carbon Frame,2563.61,7,0.0,1115.81
+308,GSH-150150307,07/01/2021,07/08/2021,Standard,XCUST-705126,Leila Hassan,Consumer,UAE,Dubai,DE,13681,Asia,PRD-NEW-2024-EL002,Electronics,Accessories,Mechanical RGB Keyboard,434.49,7,0.15,223.68
+309,GSH-150150308,04/19/2021,04/21/2021,Economy,XCUST-825356,Hassan Ibrahim,Corporate,Turkey,Istanbul,DU,88065,Asia,PRD-NEW-2024-HM002,Home & Garden,Furniture,Dining Table 8 Seater,886.68,6,0.15,520.65
+310,GSH-150150309,10/08/2022,10/17/2022,Overnight,XCUST-623693,Priya Sharma,Home Office,India,Delhi,SI,50924,Asia,PRD-NEW-2024-EL003,Electronics,Accessories,Gaming Mouse Wireless,9845.5,14,0.0,3987.39
