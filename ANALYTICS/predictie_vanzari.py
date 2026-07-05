@@ -18,11 +18,14 @@ except:
     auto_arima = None
 from sqlalchemy import create_engine
 
+from DB.connection import get_engine
+
+
 
 
 
 def get_connection():
-    return create_engine("postgresql://licenta:licenta123@localhost:5432/sales_db")
+    return get_engine()
 
 
 

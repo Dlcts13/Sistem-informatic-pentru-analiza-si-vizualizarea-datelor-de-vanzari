@@ -3,12 +3,11 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 from sqlalchemy import create_engine
-
+from DB.connection import get_engine
 
 @st.cache_resource
 def get_connection():
-    DB_URI= "postgresql+psycopg2://licenta:licenta123@localhost:5432/sales_db"
-    return create_engine(DB_URI)
+    return get_engine()
 
 
 @st.cache_data(ttl=3600)
