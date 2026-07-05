@@ -5,7 +5,7 @@ alembic
 boto3
 gspread
 requests
-apache-airflow
+streamlit-authenticator
 scikit-learn
 streamlit
 plotly

@@ -4,3 +4,5 @@ credentials_google.json
 credentials_google.json
 __pycache__/
 *.pyc
+.streamlit/
+generate_unique_test_data.pydocker-compose.yml
