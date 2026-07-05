@@ -10,7 +10,7 @@ try:
     eng = get_engine()
     st.write("DEBUG: Host vazut de aplicatie:", eng.url.host)
 except Exception as e:
-    st.write("DEBUG: get_engine() a picat cu eroarea:", e)
+    st.write("DEBUG: get_engine() a picat cu eroarea:", repr(e))
 
 @st.cache_resource
 def get_connection():
