@@ -82,16 +82,16 @@ class BaseDataLoader(ABC):
         print("incarca cacheuri din baza de date...")
         
         self.product_cache={
-            p.name: p.id for p in self.session.query(DimProduct).all()
+            name: product_id for name, product_id in self.session.query(DimProduct.name, DimProduct.id).all()
         }
         self.customer_cache={
-            c.name: c.id for c in self.session.query(DimCustomer).all()
+            name: customer_id for name, customer_id in self.session.query(DimCustomer.name, DimCustomer.id).all()
         }
         self.date_cache = {
-            d.date: d.id for d in self.session.query(DimDate).all()
+            date_value: date_id for date_value, date_id in self.session.query(DimDate.date, DimDate.id).all()
         }
         self.region_cache ={
-            (r.city, r.country): r.id for r in self.session.query(DimRegion).all()
+            (city, country): region_id for city, country, region_id in self.session.query(DimRegion.city, DimRegion.country, DimRegion.id).all()
         }
     
 
@@ -108,7 +108,7 @@ class BaseDataLoader(ABC):
 
 
             self.session.add(new_prod)
-            self.session.commit()
+            self.session.flush()
             self.product_cache[product_name]=new_prod.id
         
 
@@ -134,7 +134,7 @@ class BaseDataLoader(ABC):
 
 
             self.session.add(new_cust)
-            self.session.commit()
+            self.session.flush()
             self.customer_cache[customer_name]=new_cust.id
         
 
@@ -162,7 +162,7 @@ class BaseDataLoader(ABC):
             )
 
             self.session.add(new_date)
-            self.session.commit()
+            self.session.flush()
             self.date_cache[date_only]=new_date.id
         
 
@@ -190,7 +190,7 @@ class BaseDataLoader(ABC):
 
 
             self.session.add(new_reg)
-            self.session.commit()
+            self.session.flush()
             self.region_cache[key]=new_reg.id
         
 
@@ -256,12 +256,12 @@ class BaseDataLoader(ABC):
 
 
         print("incarca DimProduct...")
-        for i,row in df[["product_name","category","subcategory"]].drop_duplicates().iterrows():
-            brand=self.extract_brand(row["product_name"])
+        for row in df[["product_name","category","subcategory"]].drop_duplicates().itertuples(index=False):
+            brand=self.extract_brand(row.product_name)
             self.upsert_dim_product(
-                row["product_name"],
-                row["category"],
-                row["subcategory"],
+                row.product_name,
+                row.category,
+                row.subcategory,
                 brand
             )
 
@@ -270,21 +270,25 @@ class BaseDataLoader(ABC):
 
 
         print("incarca DimCustomer...")
-        for i,row in df[["customer_name","email","city","country", "segment"]].drop_duplicates().iterrows():
+        for row in df[["customer_name","email","city","country", "segment"]].drop_duplicates().itertuples(index=False):
             self.upsert_dim_customer(
-                row["customer_name"],
-                row["email"],
-                row["city"],
-                row["country"],
-                row["segment"]
+                row.customer_name,
+                row.email,
+                row.city,
+                row.country,
+                row.segment
             )
         
 
 
 
         print("incarca DimRegion...")
-        for i,row in df[["city","country","region"]].drop_duplicates().iterrows():
-            self.upsert_dim_region(row["city"],row["country"], row["region"])
+        for row in df[["city","country","region"]].drop_duplicates().itertuples(index=False):
+            self.upsert_dim_region(row.city,row.country, row.region)
+
+
+
+        self.session.commit()
     
 
 
@@ -294,9 +298,10 @@ class BaseDataLoader(ABC):
         print("incarca FactSales...")
         existing_row_ids={str(r[0]).strip() for r in self.session.query(FactSales.source_order_id).all()}
         local_seen_ids=set()
+        facts_to_insert = []
         
-        for index,row in df.iterrows():
-            row_id_str=str(row["order_id"]).strip()
+        for index,row in enumerate(df.itertuples(index=False), start=0):
+            row_id_str=str(row.order_id).strip()
             if row_id_str in existing_row_ids or row_id_str in local_seen_ids:
                 self.rows_skipped+=1
                 continue
@@ -307,10 +312,10 @@ class BaseDataLoader(ABC):
             local_seen_ids.add(row_id_str)
             
             try:
-                product_id= self.product_cache.get(row["product_name"])
-                customer_id =self.customer_cache.get(row["customer_name"])
-                date_id= self.date_cache.get(row["order_date"].date())
-                region_id= self.region_cache.get((row["city"],row["country"]))
+                product_id= self.product_cache.get(row.product_name)
+                customer_id =self.customer_cache.get(row.customer_name)
+                date_id= self.date_cache.get(row.order_date.date())
+                region_id= self.region_cache.get((row.city,row.country))
                 
 
 
@@ -326,25 +331,30 @@ class BaseDataLoader(ABC):
                     product_id=product_id,
                     customer_id=customer_id,
                     region_id=region_id,
-                    quantity=int(row["quantity"]),
-                    unit_price=row["unit_price"],
-                    revenue=row["revenue"],
-                    discount=row["discount"],
-                    profit=row["profit"],
+                    quantity=int(row.quantity),
+                    unit_price=row.unit_price,
+                    revenue=row.revenue,
+                    discount=row.discount,
+                    profit=row.profit,
                     source=self.source_name
                 )
                 
 
 
 
-                self.session.add(fact)
-                self.session.commit()
-                self.rows_inserted += 1
+                facts_to_insert.append(fact)
                 
             except Exception as e:
                 self.session.rollback()
                 self.errors+= 1
                 print(f"Eroare la randul {index}: {str(e)}")
+
+
+
+        if facts_to_insert:
+            self.session.add_all(facts_to_insert)
+            self.session.commit()
+            self.rows_inserted += len(facts_to_insert)
     
 
 
