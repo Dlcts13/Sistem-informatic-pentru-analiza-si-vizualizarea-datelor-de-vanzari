@@ -4,16 +4,17 @@ import plotly.graph_objects as go
 import streamlit as st
 from sqlalchemy import create_engine
 
+from DB.connection import get_engine
 
-@st.cache_resource
-def get_connection():
-    DB_URI="postgresql+psycopg2://licenta:licenta123@localhost:5432/sales_db"
-    return create_engine(DB_URI)
+# @st.cache_resource
+# def get_connection():
+#     DB_URI="postgresql+psycopg2://licenta:licenta123@localhost:5432/sales_db"
+#     return create_engine(DB_URI)
 
 
 @st.cache_data(ttl=3600)
 def load_product_data():
-    engine=get_connection()
+    engine = get_engine()
     query="""
         SELECT p.id,p.name, p.category, p.subcategory,p.brand,
             SUM(f.revenue) as total_revenue,
@@ -25,7 +26,12 @@ def load_product_data():
         GROUP BY p.id, p.name, p.category, p.subcategory, p.brand
         ORDER BY total_revenue DESC
     """
-    return pd.read_sql(query, engine)
+    with engine.connect() as conn:
+        df = pd.read_sql(query, conn)
+        
+    return df
+
+    # return pd.read_sql(query, engine)
 
 
 
