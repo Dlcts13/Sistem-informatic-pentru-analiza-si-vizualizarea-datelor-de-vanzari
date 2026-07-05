@@ -6,6 +6,8 @@ from sqlalchemy import create_engine
 
 from DB.connection import get_engine
 
+st.write("DEBUG: Conexiunea actuală caută adresa:", get_engine().url.host)
+
 @st.cache_resource
 def get_connection():
     return get_engine()
