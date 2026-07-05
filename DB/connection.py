@@ -33,17 +33,26 @@ def get_engine():
             return st.secrets[key]
         return os.getenv(key)
 
+    db_host = get_db_cred('DB_HOST')
+    
     url = (
         f"postgresql+psycopg2://"
         f"{get_db_cred('DB_USER')}:{get_db_cred('DB_PASSWORD')}"
-        f"@{get_db_cred('DB_HOST')}:{get_db_cred('DB_PORT')}"
+        f"@{db_host}:{get_db_cred('DB_PORT')}"
         f"/{get_db_cred('DB_NAME')}"
     )
+
     connect_args = {}
-    if "neon.tech" in get_db_cred('DB_HOST'):
+    if db_host and "neon.tech" in db_host:
         connect_args = {"sslmode": "require"}
 
-    return create_engine(url, connect_args=connect_args)
+    return create_engine(
+        url, 
+        connect_args=connect_args,
+        pool_pre_ping=True,
+        pool_size=5,
+        max_overflow=10
+    )
 
 if __name__=="__main__":
     engine = get_engine()
