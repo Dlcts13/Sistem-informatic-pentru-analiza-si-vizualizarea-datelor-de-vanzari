@@ -4,6 +4,7 @@ from google.oauth2.service_account import Credentials
 import sys
 import os
 import argparse
+import streamlit as st
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),"..")))
 from ETL.base_loader import BaseDataLoader
@@ -38,35 +39,63 @@ class GoogleSheetsLoader(BaseDataLoader):
 
 
         
-        if credentials_path is None:
-            credentials_path=os.getenv("GOOGLE_SHEETS_CREDENTIALS_PATH")
-            if not credentials_path or not os.path.exists(credentials_path):
+        # if credentials_path is None:
+        #     credentials_path=os.getenv("GOOGLE_SHEETS_CREDENTIALS_PATH")
+        #     if not credentials_path or not os.path.exists(credentials_path):
+        #         standard_paths = [
+        #             "credentials_google.json",
+        #             os.path.join(os.path.dirname(__file__),"..","credentials_google.json"),
+        #             "conectaregooglecloud/licenta-497517-e8484745f645.json"
+        #         ]
+
+
+
+        #         for path in standard_paths:
+        #             if os.path.exists(path):
+        #                 credentials_path= path
+        #                 break
+        
+
+
+        # if not credentials_path or not os.path.exists(credentials_path):
+        #     raise FileNotFoundError(
+        #         f"Credentiale Google Sheets nu gasite\n"
+        #         f"Cale cautata: {credentials_path}"
+        #     )
+        
+
+
+
+        # scope= ["https://www.googleapis.com/auth/spreadsheets.readonly"]
+        # creds=Credentials.from_service_account_file(credentials_path, scopes=scope)
+        # self.client = gspread.authorize(creds)
+        scope = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
+        
+        # 1. Incearca direct din Streamlit Secrets (Cloud)
+        try:
+            if "gcp_service_account" in st.secrets:
+                gcp_info = dict(st.secrets["gcp_service_account"])
+                creds = Credentials.from_service_account_info(gcp_info, scopes=scope)
+            else:
+                creds = None
+        except Exception:
+            creds = None
+
+        # 2. Fallback local (Laptop) daca nu a gasit in cloud
+        if creds is None:
+            if credentials_path is None:
                 standard_paths = [
                     "credentials_google.json",
                     os.path.join(os.path.dirname(__file__),"..","credentials_google.json"),
                     "conectaregooglecloud/licenta-497517-e8484745f645.json"
                 ]
+                credentials_path = next((p for p in standard_paths if os.path.exists(p)), None)
+            
+            if not credentials_path or not os.path.exists(credentials_path):
+                raise FileNotFoundError("Credentiale Google Sheets nu gasite nici in Cloud, nici local!")
+                
+            creds = Credentials.from_service_account_file(credentials_path, scopes=scope)
 
-
-
-                for path in standard_paths:
-                    if os.path.exists(path):
-                        credentials_path= path
-                        break
-        
-
-
-        if not credentials_path or not os.path.exists(credentials_path):
-            raise FileNotFoundError(
-                f"Credentiale Google Sheets nu gasite\n"
-                f"Cale cautata: {credentials_path}"
-            )
-        
-
-
-
-        scope= ["https://www.googleapis.com/auth/spreadsheets.readonly"]
-        creds=Credentials.from_service_account_file(credentials_path, scopes=scope)
         self.client = gspread.authorize(creds)
     
 
