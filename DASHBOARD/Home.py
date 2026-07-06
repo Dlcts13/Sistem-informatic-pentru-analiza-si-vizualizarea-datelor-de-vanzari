@@ -24,7 +24,6 @@ authenticator = stauth.Authenticate(
     cookie['name'],
     cookie['key'],
     cookie['expiry_days'],
-    preauthorized
 )
 
 USER_ROLES = {
