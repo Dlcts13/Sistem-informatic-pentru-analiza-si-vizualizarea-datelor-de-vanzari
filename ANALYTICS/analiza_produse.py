@@ -6,12 +6,6 @@ from sqlalchemy import create_engine
 
 from DB.connection import get_engine
 
-try:
-    eng = get_engine()
-    st.write("DEBUG: Host vazut de aplicatie:", eng.url.host)
-except Exception as e:
-    st.write("DEBUG: get_engine() a picat cu eroarea:", repr(e))
-
 @st.cache_resource
 def get_connection():
     return get_engine()

@@ -8,11 +8,9 @@ import plotly.graph_objects as go
 current_dir=os.path.dirname(os.path.abspath(__file__))
 parent_dir=os.path.dirname(os.path.dirname(current_dir))
 sys.path.insert(0, parent_dir)
-from ANALYTICS import predictie_vanzari as pv
-
-
-
 st.set_page_config(page_title="Predictie Vanzari", layout="wide")
+
+from ANALYTICS import predictie_vanzari as pv
 
 
 

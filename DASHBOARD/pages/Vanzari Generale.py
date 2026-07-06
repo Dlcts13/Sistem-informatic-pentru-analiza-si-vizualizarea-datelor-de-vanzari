@@ -5,9 +5,9 @@ current_dir= os.path.dirname(os.path.abspath(__file__))
 parent_dir=os.path.dirname(os.path.dirname(current_dir))
 sys.path.insert(0, parent_dir)
 
-from ANALYTICS import vanzari_generale as vg
-
 st.set_page_config(page_title="Vanzari Generale", layout="wide")
+
+from ANALYTICS import vanzari_generale as vg
 
 
 
