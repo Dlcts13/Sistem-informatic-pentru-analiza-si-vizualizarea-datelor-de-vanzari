@@ -9,7 +9,13 @@ st.set_page_config(page_title="Vanzari Generale", layout="wide")
 
 from ANALYTICS import vanzari_generale as vg
 
+if not st.session_state.get("authentication_status"):
+    st.error("⚠️ Acces refuzat! Te rugăm să te autentifici mai întâi pe pagina principală (Home).")
+    st.stop()
 
+if st.session_state.get("role") != "manager":
+    st.error("🔒 Acces neautorizat! Această secțiune de analiză este rezervată exclusiv rolului de Manager.")
+    st.stop()
 
 
 def main():

@@ -9,6 +9,14 @@ st.set_page_config(page_title="Analiza Produse", layout="wide")
 
 from ANALYTICS import analiza_produse as ap
 
+if not st.session_state.get("authentication_status"):
+    st.error("⚠️ Acces refuzat! Te rugăm să te autentifici mai întâi pe pagina principală (Home).")
+    st.stop()
+
+if st.session_state.get("role") != "manager":
+    st.error("🔒 Acces neautorizat! Această secțiune de analiză este rezervată exclusiv rolului de Manager.")
+    st.stop()
+
 
 def main():
     st.title("Analiza performantei produselor")
