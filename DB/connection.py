@@ -28,11 +28,21 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
+def _clean_value(value):
+    if isinstance(value, str):
+        return value.strip()
+    return value
+
 def get_engine():
     def get_db_cred(key):
-        if key in st.secrets:
-            return st.secrets[key]
-        return os.getenv(key)
+        try:
+            if key in st.secrets:
+                return _clean_value(st.secrets[key])
+        except Exception:
+            pass
+
+        return _clean_value(os.getenv(key))
 
     database_url = get_db_cred('DATABASE_URL')
     if database_url:
@@ -52,12 +62,21 @@ def get_engine():
         )
 
     db_host = get_db_cred('DB_HOST')
+    db_user = get_db_cred('DB_USER')
+    db_password = get_db_cred('DB_PASSWORD')
+    db_port = get_db_cred('DB_PORT')
+    db_name = get_db_cred('DB_NAME')
+
+    if not all([db_host, db_user, db_password, db_port, db_name]):
+        raise RuntimeError(
+            'Database credentials are missing. Configure DATABASE_URL or DB_USER/DB_PASSWORD/DB_HOST/DB_PORT/DB_NAME in Streamlit secrets.'
+        )
     
     url = (
         f"postgresql+psycopg2://"
-        f"{get_db_cred('DB_USER')}:{get_db_cred('DB_PASSWORD')}"
-        f"@{db_host}:{get_db_cred('DB_PORT')}"
-        f"/{get_db_cred('DB_NAME')}"
+        f"{db_user}:{db_password}"
+        f"@{db_host}:{db_port}"
+        f"/{db_name}"
     )
 
     connect_args = {}
