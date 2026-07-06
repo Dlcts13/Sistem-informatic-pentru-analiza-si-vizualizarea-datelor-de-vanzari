@@ -21,7 +21,7 @@ if st.session_state.get("role") != "manager":
     st.error("Acces neautorizat!")
     st.stop()
 
-st_autorefresh(interval=30000, limit=None, key="smart_refresh_analiza")
+st_autorefresh(interval=30000, limit=None, key="smart_refresh_vanzari")
 
 def get_data_version():
     engine = get_engine()
@@ -32,12 +32,12 @@ def get_data_version():
 
 current_version = get_data_version()
 
-if "last_data_version" not in st.session_state:
-    st.session_state["last_data_version"] = current_version
+if "last_data_version_vanzari" not in st.session_state:
+    st.session_state["last_data_version_vanzari"] = current_version
 
-if current_version != st.session_state["last_data_version"]:
+if current_version != st.session_state["last_data_version_vanzari"]:
     st.toast("Date noi primite in platforma! Se actualizeaza ...")
-    st.session_state["last_data_version"] = current_version
+    st.session_state["last_data_version_vanzari"] = current_version
 
 def main():
     st.title("Vanzari Generale")
