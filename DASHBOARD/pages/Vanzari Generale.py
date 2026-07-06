@@ -1,6 +1,10 @@
 import streamlit as st
 import sys
 import os
+from streamlit_autorefresh import st_autorefresh
+from sqlalchemy import text
+import pandas as pd
+from DB.connection import get_engine
 current_dir= os.path.dirname(os.path.abspath(__file__))
 parent_dir=os.path.dirname(os.path.dirname(current_dir))
 sys.path.insert(0, parent_dir)
@@ -10,13 +14,30 @@ st.set_page_config(page_title="Vanzari Generale", layout="wide")
 from ANALYTICS import vanzari_generale as vg
 
 if not st.session_state.get("authentication_status"):
-    st.error("⚠️ Acces refuzat! Te rugăm să te autentifici mai întâi pe pagina principală (Home).")
+    st.error("Acces refuzat!")
     st.stop()
 
 if st.session_state.get("role") != "manager":
-    st.error("🔒 Acces neautorizat! Această secțiune de analiză este rezervată exclusiv rolului de Manager.")
+    st.error("Acces neautorizat!")
     st.stop()
 
+st_autorefresh(interval=30000, limit=None, key="smart_refresh_analiza")
+
+def get_data_version():
+    engine = get_engine()
+    query = "SELECT COUNT(*), MAX(created_at) FROM fact_sales;"
+    with engine.connect() as conn:
+        result = conn.execute(text(query)).fetchone()
+    return f"{result[0]}_{result[1]}"
+
+current_version = get_data_version()
+
+if "last_data_version" not in st.session_state:
+    st.session_state["last_data_version"] = current_version
+
+if current_version != st.session_state["last_data_version"]:
+    st.toast("Date noi primite in platforma! Se actualizeaza ...")
+    st.session_state["last_data_version"] = current_version
 
 def main():
     st.title("Vanzari Generale")
@@ -24,7 +45,7 @@ def main():
     st.markdown("---")
 
 
-    df=vg.load_dashboard_data()
+    df=vg.load_dashboard_data(version_hash=current_version)
 
 
     with st.sidebar:

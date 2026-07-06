@@ -13,3 +13,4 @@ python-dotenv
 loguru
 statsmodels
 pmdarima
+streamlit-autorefresh

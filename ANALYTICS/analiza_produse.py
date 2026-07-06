@@ -12,7 +12,7 @@ def get_connection():
 
 
 @st.cache_data(ttl=3600)
-def load_product_data():
+def load_product_data(version_hash=None):
     engine = get_connection()
     query="""
         SELECT p.id,p.name, p.category, p.subcategory,p.brand,

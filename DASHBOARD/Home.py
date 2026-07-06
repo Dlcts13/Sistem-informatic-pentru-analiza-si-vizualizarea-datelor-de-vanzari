@@ -41,8 +41,8 @@ if st.session_state["authentication_status"]:
     st.session_state["role"] = USER_ROLES.get(current_user, "agent")
 
     with st.sidebar:
-        st.write(f"👤 Utilizator: **{current_user}**")
-        st.write(f"🔑 Rol: **{st.session_state['role'].upper()}**")
+        st.write(f"Utilizator: **{current_user}**")
+        st.write(f"Rol: **{st.session_state['role'].upper()}**")
         authenticator.logout('Deconectare', 'main')
         
     st.title("Sistem informatic pentru analiza si vizualizarea datelor")
@@ -200,6 +200,6 @@ if st.session_state["authentication_status"]:
     st.markdown("---")
 
 elif st.session_state["authentication_status"] is False:
-    st.error('Username sau parolă incorecte!')
+    st.error('Username sau parola incorecte!')
 elif st.session_state["authentication_status"] is None:
-    st.warning('Te rugăm să introduci datele de logare pentru a accesa platforma.')
+    st.warning('Te rugam sa introduci datele de logare pentru a accesa platforma.')

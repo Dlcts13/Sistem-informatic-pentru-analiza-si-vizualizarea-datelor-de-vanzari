@@ -63,7 +63,7 @@ def check_database_schema():
 
 
 
-def load_timeseries_data():
+def load_timeseries_data(version_hash=None):
     conn=get_connection()
     query= """
     SELECT 

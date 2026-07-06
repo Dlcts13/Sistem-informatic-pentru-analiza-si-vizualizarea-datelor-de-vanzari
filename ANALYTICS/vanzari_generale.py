@@ -11,7 +11,7 @@ def get_connection():
 
 
 @st.cache_data(ttl=3600)
-def load_dashboard_data():
+def load_dashboard_data(version_hash=None):
     engine=get_connection()
     query="""
         SELECT 
