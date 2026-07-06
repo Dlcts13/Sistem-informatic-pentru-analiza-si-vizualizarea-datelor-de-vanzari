@@ -10,20 +10,22 @@ st.set_page_config(page_title="Platforma Analiza", layout="wide")
 
 if "credentials" in st.secrets:
     credentials = dict(st.secrets["credentials"])
+    credentials["usernames"] = dict(credentials["usernames"])
+    for user in credentials["usernames"]:
+        credentials["usernames"][user] = dict(credentials["usernames"][user])
+        
     cookie = dict(st.secrets["cookie"])
-    preauthorized = dict(st.secrets["preauthorized"])
 else:
     with open('config.yaml') as file:
         config = yaml.load(file, Loader=SafeLoader)
     credentials = config['credentials']
     cookie = config['cookie']
-    preauthorized = config['preauthorized']
 
 authenticator = stauth.Authenticate(
     credentials,
     cookie['name'],
     cookie['key'],
-    cookie['expiry_days'],
+    cookie['expiry_days']
 )
 
 USER_ROLES = {
