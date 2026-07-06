@@ -14,3 +14,4 @@ loguru
 statsmodels
 pmdarima
 streamlit-autorefresh
+google-genai
