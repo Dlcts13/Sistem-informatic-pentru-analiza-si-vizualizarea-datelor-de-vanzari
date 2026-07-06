@@ -21,6 +21,7 @@
 
 
 from sqlalchemy import create_engine
+from sqlalchemy.engine import make_url
 import streamlit as st
 import os
 from dotenv import load_dotenv
@@ -32,6 +33,23 @@ def get_engine():
         if key in st.secrets:
             return st.secrets[key]
         return os.getenv(key)
+
+    database_url = get_db_cred('DATABASE_URL')
+    if database_url:
+        url = database_url.replace('postgres://', 'postgresql+psycopg2://', 1)
+        parsed_url = make_url(url)
+
+        connect_args = {}
+        if parsed_url.host and 'neon.tech' in parsed_url.host:
+            connect_args = {'sslmode': 'require'}
+
+        return create_engine(
+            url,
+            connect_args=connect_args,
+            pool_pre_ping=True,
+            pool_size=5,
+            max_overflow=10,
+        )
 
     db_host = get_db_cred('DB_HOST')
     
