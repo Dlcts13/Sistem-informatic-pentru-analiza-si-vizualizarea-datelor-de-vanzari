@@ -22,7 +22,7 @@ if st.session_state.get("role") != "manager":
     st.error("Acces neautorizat!")
     st.stop()
 
-st_autorefresh(interval=30000, limit=None, key="smart_refresh_raport_ai")
+st_autorefresh(interval=300000, limit=None, key="smart_refresh_raport_ai")
 
 def get_data_version():
     engine = get_engine()
