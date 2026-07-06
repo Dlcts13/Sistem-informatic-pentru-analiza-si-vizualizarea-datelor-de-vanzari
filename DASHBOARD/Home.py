@@ -45,7 +45,7 @@ if st.session_state["authentication_status"]:
         st.write(f"Rol: **{st.session_state['role'].upper()}**")
         authenticator.logout('Deconectare', 'main')
         
-    st.title("Sistem informatic pentru analiza si vizualizarea datelor")
+    st.title("Sistem informatic pentru analiza și vizualizarea datelor de vânzări într-o bază de date relațională")
     st.markdown("---")
 
     st.subheader("Bun venit!")
@@ -96,25 +96,52 @@ if st.session_state["authentication_status"]:
     st.write("Configureaza extragerea datelor din diverse surse")
     st.markdown("---")
 
-    with st.expander("Incarca date din fisier CSV", expanded=False):
-        st.write("Selecteaza un fisier CSV pentru a-l incarca in baza de date")
+    # with st.expander("Incarca date din fisier CSV", expanded=False):
+    #     st.write("Selecteaza un fisier CSV pentru a-l incarca in baza de date")
         
-        col1,col2= st.columns([3, 1])
+    #     col1,col2= st.columns([3, 1])
+        
+    #     with col1:
+    #         csv_path = st.text_input(
+    #             "Calea fisierului CSV",
+    #             value="RES/Sample - Superstore.csv",
+    #             placeholder="Ex: RES/data.csv sau C:/Users/data.csv",
+    #             key="csv_path"
+    #         )
+    #     with col2:
+    #         st.write("")
+    #         if st.button("Executa",key="run_csv",use_container_width=True):
+    #             if csv_path.strip():
+    #                 run_etl_script("load_csv_to_db.py", ["--path", csv_path])
+    #             else:
+    #                 st.error("Introduce o cale valida")
+
+    # st.write("")
+
+    with st.expander("Incarca date din fisier CSV", expanded=False):
+        st.write("Selecteaza un fisier CSV din calculatorul tau pentru a-l incarca in baza de date")
+        
+        col1, col2 = st.columns([3, 1])
         
         with col1:
-            csv_path = st.text_input(
-                "Calea fisierului CSV",
-                value="RES/Sample - Superstore.csv",
-                placeholder="Ex: RES/data.csv sau C:/Users/data.csv",
-                key="csv_path"
-            )
+            uploaded_file = st.file_uploader("Trage fisierul aici", type=["csv"], key="csv_upload", label_visibility="collapsed")
+            
         with col2:
             st.write("")
-            if st.button("Executa",key="run_csv",use_container_width=True):
-                if csv_path.strip():
-                    run_etl_script("load_csv_to_db.py", ["--path", csv_path])
+            st.write("") 
+            if st.button("Executa", key="run_csv", use_container_width=True):
+                if uploaded_file is not None:
+                    temp_file_path = os.path.join(PROJECT_ROOT, "temp_uploaded_data.csv")
+                    
+                    with open(temp_file_path, "wb") as f:
+                        f.write(uploaded_file.getbuffer())
+                    
+                    run_etl_script("load_csv_to_db.py", ["--path", temp_file_path])
+                    
+                    if os.path.exists(temp_file_path):
+                        os.remove(temp_file_path)
                 else:
-                    st.error("Introduce o cale valida")
+                    st.error("Te rugam sa incarci un fisier CSV mai intai.")
 
     st.write("")
 
